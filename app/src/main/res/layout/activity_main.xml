@@ -13,10 +13,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <com.google.android.material.appbar.MaterialToolbar
+        <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"></com.google.android.material.appbar.MaterialToolbar>
+            android:layout_height="?attr/actionBarSize"></androidx.appcompat.widget.Toolbar>
 
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -30,5 +30,11 @@
 
     </androidx.core.widget.NestedScrollView>
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@android:drawable/ic_input_add"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp" />"
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
